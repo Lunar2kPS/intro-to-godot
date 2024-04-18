@@ -11,7 +11,8 @@ config_version=5
 [application]
 
 config/name="intro-to-godot"
-config/features=PackedStringArray("4.2", "Forward Plus")
+run/main_scene="res://Example Scene.tscn"
+config/features=PackedStringArray("4.2", "C#", "Forward Plus")
 config/icon="res://icon.svg"
 
 [dotnet]
